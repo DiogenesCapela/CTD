@@ -1,34 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body {
-  
-    background-color: rgb(223, 215, 185);
 
+    background-color: #131313;
 }
-
-p {
-    color: rgb(51, 51, 51);  
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
-
-.tituloPrincipal {
- 
-     color: #0d1b97;
+.media-picture {
+    background-size: 400px;
+    height: 400px;
+    background-image: url('https://img.elo7.com.br/product/original/262F8C9/painel-de-festa-vingadores-ultimato-super-herois-endgame-painel-de-festa-vingadores-guerra-infinita.jpg');
+    background-position: center; 
+    background-size: cover;
     
 
 }
 
-.job-title {
-       background-color: #1726ad;
-       color: #898dbe;
-    }
-#high {
-    color: rgb(13, 27, 151);
-}    
+.review-score {
 
-ul {
-    background-color: #333333;
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+}
+
+h2 {
+    color: steelblue;
+}
+
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
 
 }
 
-li {
-    color: rgb(223, 215, 185);
+a {
+    color: yellow;
 }
+
+
+
+     
+
+
+    
+    
+    
 
