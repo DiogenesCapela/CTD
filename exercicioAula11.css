@@ -1,0 +1,42 @@
+body {
+    height: 2000px;
+  
+    
+
+
+    
+}
+h1 {
+    color: white;
+    margin: 40px;
+    
+
+}
+
+
+.caixa-1 {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.caixa-2 {
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+    left: 40%;  
+    width: 200px;
+    height: 200px;    
+
+}
+
+.caixa-3 {
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0 ;
+    top: 0%;
+
+}
