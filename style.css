@@ -1,105 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
 
 body {
-
-    background-color: #181818;
-    font-family: 'Roboto', sans-serif;
-    margin: 72px 0;
-
+    background-color: tomato;
+    font-family: 'Rubik', sans-serif;
+    height: 600px;
+    background-image: url("https://tribunahoje.com/wp-content/uploads/2018/07/pagina-13-1-1.jpg");
+    background-size: cover;
+    background-position: center;
+    
 }
 
-.page-title {
 
-    color: rgb(236, 54, 78);
-    padding-left: 64px;
-    margin-bottom: 6px;
-
+header {
+  
+    padding: 20px;
+    font-family: 'Birthstone', cursive;
+    color: black;
+    text-align: center;
+ 
 }
 
-.page-description {
 
-    padding-left: 64px;
-    color: rgba(255, 255, 255, 0.6);
 
+p {
+   
+    padding: 20px;
+    color: blue
+   
 }
 
-.videos {
+h2 {
+   
+    padding: 20px;
+    
+}
 
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 12px;
-
+ul {
+    padding: 20px;
+    color: white;
 }
 
 .video {
-
     width: 30%;
-    height: fit-content;
     margin-top: 24px;
     padding: 32px 12px;
-    transition: .5s ease-in-out;
-    cursor: pointer;
+    color: blanchedalmond;
+    
+}
+
+footer {
+    padding: 10px;
+    color: blanchedalmond;
+    background-color: rgb(29, 124, 92);
+    
 
 }
 
-.video:hover {
-
-    transform: scale(1.02);
-    filter: brightness(120%);
-
-}
-
-.thumbnail {
-
-    width: 100%;
+.instagram {
+    position: fixed;
+    bottom: 10px;
+    left: 80%;  
+    width: 40px;
+    height: 40px; 
 
 }
 
-.video-time {
-
+.face {
+    position: fixed;
+    bottom: 10px;
+    left: 85%;  
+    width: 40px;
+    height: 40px; 
+}
+a {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: fit-content;
-    float: right;
-    padding: 8px 12px;
-    display: block;
-    transform: translateY(-35px);
-
-}
-
-.video-title {
-
-    margin: 8px 0 12px;
-    color: white;
-    
-    
-
-}
-
-.video-description {
-
-    color: rgba(255, 255, 255, 0.6);
-    margin: 0;
-
-}
-
-.video-views {
-
-    color: rgba(255, 255, 255, 0.6);
-    margin-top: 12px;
-    display: block;
-
-}
-
-.video-date {
-
-    text-align: right;
-    display: block;
-    color: rgba(255, 255, 255, 0.4); font-size: 12px;
-    
-  
-
 }
